@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8f1e7;
+    padding: 40px;
+    box-shadow: 2px 2px 10px 0px;
+}
