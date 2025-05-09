@@ -149,3 +149,34 @@
     font-family: 'DynaPuff';
     font-size: 3em;
 }
+/* container-3 ended */
+
+/* footer started */
+.footer {
+    background-color: rgb(65, 12, 12);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    text-wrap: wrap;
+}
+
+.footer p {
+    background-color: rgb(65, 12, 12);
+}
+
+.footer-2 {
+    padding: 20px;
+}
+
+.footer-2 nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-2 nav a {
+    text-decoration: none;
+    color: rgb(65, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+/* footer ended */
