@@ -83,6 +83,12 @@
     border-radius: 50px;
     border: 1px solid rgb(65, 12, 12);
 }
+
+.img-back {
+    width: 600px;
+    height: auto;
+}
+
 /* container-1 ended */
 
 /* container-2 started*/
@@ -91,8 +97,10 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
 }
+
 
 .box {
     border-radius: 20px;
@@ -131,6 +139,10 @@
     margin-bottom: 20px;
     cursor: pointer;
     text-wrap: wrap;
+}
+
+.img-back-2 img {
+
 }
 /* container-2 ended */
 
@@ -180,3 +192,23 @@
     font-weight: bold;
 }
 /* footer ended */
+
+
+/* media */
+
+@media screen and (max-width: 940px) {
+    .img-back {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .img-back-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box {
+        margin: 0 20px;
+    }
+}
